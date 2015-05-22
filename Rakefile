@@ -22,7 +22,8 @@ Hoe.plugin :travis
 
 $rdoc_rakefile = true
 
-hoe = Hoe.spec 'rdoc' do
+hoe = Hoe.spec 'rdoc-sane-fonts' do
+  developer 'David Kellum', 'dek-oss@gravitext.com'
   developer 'Eric Hodel', 'drbrain@segment7.net'
   developer 'Dave Thomas', ''
   developer 'Phil Hagelberg', 'technomancy@gmail.com'
